@@ -3,7 +3,7 @@
   }
   
   body {
-      font-family:'Courier New', Courier, monospace;
+      font-family: 'Courier New', Courier, monospace;
       margin: 0;
   }
   
@@ -22,7 +22,7 @@
     background-size: cover;
     height: 90vh;
     text-align: center;
-    padding: 20rem;
+    padding: 5rem;
     color: white;
   }
   
@@ -43,4 +43,28 @@
   .u-margin-bottom-peq {
     margin-bottom: 2rem;
   }
-  
+
+  .btn-branco{
+    color: #7E459B;
+    background-color: white;
+}
+
+  .btn{
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a{
+    text-decoration: none;
+}
