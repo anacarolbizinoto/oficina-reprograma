@@ -1,0 +1,15 @@
+.banner {
+    background: url("img/banner-bg.png") center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    padding: 20rem;
+    color: antiquewhite;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 10rem;
+
+}
