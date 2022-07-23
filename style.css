@@ -1,15 +1,46 @@
-.banner {
-    background: url("img/banner-bg.png") center no-repeat;
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+      font-family:'Courier New', Courier, monospace;
+      margin: 0;
+  }
+  
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  
+  /* ESTILOS DO BANNER */
+
+  .banner {
+    background: url(img/banner-bg.png) center no-repeat;
     background-size: cover;
     height: 90vh;
     text-align: center;
     padding: 20rem;
-    color: antiquewhite;
-}
-
-.container {
+    color: white;
+  }
+  
+  .container {
     max-width: 1080px;
     margin: 0 auto;
     margin-top: 10rem;
-
-}
+  }
+  
+  .banner__titulo {
+    font-size: 5rem;
+  }
+  
+  .banner__subtitulo {
+    font-size: 2.3rem;
+  }
+  
+  .u-margin-bottom-peq {
+    margin-bottom: 2rem;
+  }
+  
