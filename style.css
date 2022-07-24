@@ -37,7 +37,7 @@
   }
   
   .banner__subtitulo {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
   
   .u-margin-bottom-peq {
@@ -67,4 +67,89 @@ p{
 
 a{
     text-decoration: none;
+}
+
+.sobre__div{
+  margin: 2.5rem;
+  margin-top: 1.5rem;
+  text-align: justify;
+}
+
+.sobre__titulo{
+  width: 40%;
+  font-size: 2rem;
+  color: #C4C4C4;
+}
+
+.sobre__descricao-div{
+  width: 40%;
+  display: inline-block;
+  line-height: 1.5;
+
+}
+
+.sobre__descricao-texto{
+  font-size: 1.2rem;
+}
+
+.sobre__descricao-destaque{
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.sobre__habilidades-div{
+  width: 40%;
+  display: inline-block;
+  margin-left: 10rem;
+}
+
+.sobre__habilidades-titulo{
+  font-size: 2rem;
+  color: #C4C4C4;
+}
+
+.sobre__habilidades-lista{
+  padding-left: 2rem;
+  line-height: 2rem;
+  font-size: 1.6rem;
+}
+
+.btn-roxo{
+  color: #7E459B;
+  border: 1px solid #7E459B;
+}
+
+ul{
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+/* SEÇÃO REDES SOCIAIS */
+
+.footer{
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.redes__sociais-item{
+  display: inline-block;
+  width: 20%;
+  background-color: #7E459B;
+  padding: 2rem 0;
+  margin: 0 1rem;
+  text-align: center;
+  color: white;
+}
+
+.redes__sociais-img{
+  margin-bottom: 0.5rem;
+}
+
+h3{
+  font-size: 2.5rem;
 }
